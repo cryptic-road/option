@@ -1,0 +1,27 @@
+{
+  "author": "Impetigo Tycoon <impetigotycoon@proton.me>",
+  "bugs": "https://github.com/cryptic-road/option/issues",
+  "description": "Simple objects and types for representing optional values",
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "homepage": "https://github.com/cryptic-road/option",
+  "keywords": [
+    "just",
+    "maybe",
+    "none",
+    "nothing",
+    "null",
+    "option",
+    "optional",
+    "some",
+    "type",
+    "value"
+  ],
+  "license": "Apache-2.0",
+  "name": "@cryptic-road/option",
+  "private": true,
+  "repository": "github:cryptic-road/option",
+  "version": "0.1.0"
+}
