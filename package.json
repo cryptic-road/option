@@ -29,7 +29,9 @@
   "license": "Apache-2.0",
   "main": "dist/index.js",
   "name": "@cryptic-road/option",
-  "private": true,
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "github:cryptic-road/option",
   "scripts": {
     "build": "tsc --project ."
