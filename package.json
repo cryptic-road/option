@@ -1,0 +1,41 @@
+{
+  "author": "Impetigo Tycoon <impetigotycoon@proton.me>",
+  "bugs": "https://github.com/cryptic-road/option/issues",
+  "dependencies": {
+    "tslib": "^2.4.0"
+  },
+  "description": "Simple objects and types for representing optional values",
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "typescript": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=7.0.0"
+  },
+  "homepage": "https://github.com/cryptic-road/option",
+  "keywords": [
+    "just",
+    "maybe",
+    "none",
+    "nothing",
+    "null",
+    "option",
+    "optional",
+    "some",
+    "type",
+    "value"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/index.js",
+  "name": "@cryptic-road/option",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "github:cryptic-road/option",
+  "scripts": {
+    "build": "tsc --project ."
+  },
+  "types": "types/index.d.ts",
+  "version": "0.1.0"
+}
