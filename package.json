@@ -34,8 +34,9 @@
   },
   "repository": "github:cryptic-road/option",
   "scripts": {
-    "build": "tsc --project ."
+    "build": "tsc --project .",
+    "prepare": "npm run build"
   },
   "types": "types/index.d.ts",
-  "version": "0.1.0"
+  "version": "0.1.1"
 }
